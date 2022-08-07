@@ -1,0 +1,23 @@
+{
+  "name": "desafio1",
+  "version": "1.0.0",
+  "description": "Pure javascript project with SPA structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexff2/spauniverse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexff2/spauniverse/issues"
+  },
+  "homepage": "https://github.com/alexff2/spauniverse#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
