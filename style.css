@@ -9,10 +9,6 @@
 }
 
 body {
-  background-image: url('./img/mountains-universe-1.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  
   color: #FFF;
   font-family: Roboto, sans-serif;
   height: 100vh;
@@ -44,13 +40,72 @@ header nav ul a {
   color: #FFF;
   font-size: 2.4rem;
 }
-header nav ul a:hover {
+.weightAnchor {
   font-weight: 700;
 }
 
 #app {
   width: 100%;
   height: 100%;
+  padding: 6.3rem 10.2rem;
+}
+
+#app div img {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+#app div h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+#app div p {
+  margin-top: 1.6rem;
+  width: 64.8rem;
+
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: #E1E1E6;
+  text-align: start;
+}
+
+#app .error,
+#app .home {
+  text-align: center;
+  padding-top: 10.9rem;
+}
+
+.home a {
+  text-decoration: none;
+  margin-top: 2.4rem;
+  padding: 1.2rem 3.2rem;
+  display: inline-block;
+
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+
+  color: #FFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.home a:hover {
+  color: #02799D;
+  background-color: #FFF;
+}
+
+#app .error p {
+  text-align: center;
+  width: auto;
 }
 
 @media(min-width: 800px) {
